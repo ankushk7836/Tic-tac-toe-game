@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe Game</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>MyTicTacToe.com</h1>
+    </nav>
+    <div class="head">
+        <marquee direction="right"><h1>Welcome to Tic Tac Toe Game</h1>
+        </marquee>
+    </div>
+    <div class="container">
+        <div id="menu">
+        <div id="whoStart">Who start: </div>
+        <button onclick="start()">Play</button>
+    </div>
+        <div class="main">
+            <div id="position1" class="box" onclick="play(1)"></div>
+            <div id="position2" class="box" onclick="play(2)"></div>
+            <div id="position3" class="box" onclick="play(3)"></div>
+            <div id="position4" class="box" onclick="play(4)"></div>
+            <div id="position5" class="box" onclick="play(5)"></div>
+            <div id="position6" class="box" onclick="play(6)"></div>
+            <div id="position7" class="box" onclick="play(7)"></div>
+            <div id="position8" class="box" onclick="play(8)"></div>
+            <div id="position9" class="box" onclick="play(9)"></div>
+        </div>
+    </div>
+    <div class="gameInfo">
+        <h1>Welcome to the game</h1>
+    </div>
+    <div>
+        <span class="info">Turn for X</span>
+        <button id="reset">Reset</button>
+    </div>
+
+    <footer>
+        <h2>&copy; 2023 MyTicTacToe.com</h2>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
